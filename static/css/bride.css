@@ -1,0 +1,39 @@
+#layout-bride .select-wrapper input.select-dropdown{
+	color: #b71c1c;
+	border-bottom: 1px solid red !important;
+}
+
+#layout-bride .datepicker-date-display{ 
+	background-color: #ed3237;
+}
+
+
+#layout-bride .input-field input, #layout-bride select, #layout-bride .input-text{
+	font-weight: 500;
+	color: #b71c1c;
+}
+
+#layout-bride .input-field label, #layout-bride select{
+	font-size: 18px;
+	color: #212121;
+}
+
+#layout-bride .input-field textarea.materialize-textarea{
+	border-bottom: 1px solid #ed3237;
+}
+
+#layout-bride .input-field textarea.materialize-textarea:focus:not([readonly]) {
+  border-bottom: 1px solid #ed3237;
+  -webkit-box-shadow: 0 1px 0 0 #a532ed;
+   box-shadow: 0 1px 0 0 #a532ed;
+}
+
+#layout-bride .input-field input[type=number], #layout-bride .input-field input[type=text], #layout-bride .input-field input[type=password], #layout-bride .input-field input[type=email]{
+	border-bottom: 0.5px solid #ed3237;
+	box-shadow: 0 0.5px 0 0 #ed3237;
+}
+
+#layout-bride .input-field input[type=number]:focus, #layout-bride .input-field input[type=text]:focus, #layout-bride .input-field input[type=password]:focus , #layout-bride .input-field input[type=email]:focus {
+	border-bottom: 1px solid #ed3237;
+	box-shadow: 0 1px 0 0 #ed3237;
+}

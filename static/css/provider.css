@@ -1,0 +1,56 @@
+#layout-provider .input-field label, #layout-provider .input-field select, #layout-provider .input-field .helper-text{
+	color: #212121;
+}
+
+#layout-provider .input-field label{
+	font-size: 18px;
+}
+
+#layout-provider select, #layout-provider option{
+	font-size: 18px;
+  border-bottom: 1px solid #a532ed;
+  -webkit-box-shadow: 0 1px 0 0 #a532ed;
+          box-shadow: 0 1px 0 0 #a532ed;
+}
+
+#layout-provider .input-field input, #layout-provider textarea.materialize-textarea{
+	font-weight: 500;
+	color: #4a148c;
+}
+
+#layout-provider .input-field textarea.materialize-textarea{
+	border-bottom: 1px solid #cf82ff;
+}
+
+#layout-provider .input-field textarea.materialize-textarea:focus:not([readonly]) {
+  border-bottom: 1px solid #a532ed;
+  -webkit-box-shadow: 0 1px 0 0 #a532ed;
+          box-shadow: 0 1px 0 0 #a532ed;
+}
+
+#layout-provider [type="checkbox"].filled-in:checked + span:not(.lever):after {
+  border: 1px solid #cf82ff;
+  background-color: #cf82ff;
+}
+
+#layout-provider .input-field input[type=text], #layout-provider .input-field input[type=tel],  #layout-provider .input-field input[type=password], #layout-provider .input-field input[type=email]{
+	border-bottom: 0.5px solid #cf82ff;
+	box-shadow: 0 0.5px 0 0 #cf82ff;
+}
+#layout-provider .input-field input[type=text]:focus, #layout-provider .input-field input[type=tel]:focus, #layout-provider .input-field input[type=email]:focus {
+	border-bottom: 1px solid #a532ed;
+	box-shadow: 0 1px 0 0 #a532ed;
+}
+
+#layout-provider .timepicker-digital-display{ 
+	background-color: #a532ed;
+}
+
+#layout-provider .datepicker-date-display{ 
+	background-color: #a532ed;
+}
+
+.timepicker-tick.active,
+.timepicker-tick:hover {
+  background-color: rgba(38, 166, 154, 0.25);
+}
