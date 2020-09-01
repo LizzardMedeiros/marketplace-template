@@ -1,0 +1,48 @@
+  .datepicker-date-display{ 
+    background-color: #ed3237;
+  }
+
+.datepicker-table td.is-selected {
+  background-color: #ed3237;
+  color: #fff;
+}
+
+.datepicker-table td.is-today {
+  color: red;
+}
+
+  .datepicker-cancel,
+  .datepicker-clear,
+  .datepicker-today,
+  .datepicker-done {
+    color: red !important;
+  }
+
+  label{
+    color: #ed3237;
+  }
+
+  .input-field input[type=number],
+  .input-field input[type=text],
+  .input-field input[type=password],
+  .input-field input[type=email]
+  {
+    border-bottom: 0.5px solid #ed3237;
+    box-shadow: 0 0.5px 0 0 #ed3237;
+  }
+
+  .input-field input[type=number]:focus,
+  .input-field input[type=text]:focus,
+  .input-field input[type=password]:focus,
+  .input-field input[type=email]:focus
+  {
+    border-bottom: 1px solid #ed3237;
+    box-shadow: 0 1px 0 0 #ed3237;
+  }
+
+   .input-field input[type=number]:focus + label,
+   .input-field input[type=text]:focus + label,
+   .input-field input[type=password]:focus + label,
+   .input-field input[type=email]:focus + label {
+     color: #ed3237;
+   }
