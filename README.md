@@ -1,6 +1,7 @@
-# noivasja
+# marketplace-template - noivasja - website
 
-> Solução para noivas e fornecedores
+> Solução para clientes e fornecedores
+> Vuecli + Materialize Lib
 
 ## Build Setup
 
